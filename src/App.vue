@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="teal-darken-4" dark>
+    <v-app-bar app color="pink" dark> </v-app-bar>
     <v-main>
       <v-container>
         <search-results />

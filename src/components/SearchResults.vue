@@ -5,7 +5,7 @@
     </h3>
 
     <v-slide-group class="pb-5" show-arrows>
-      <v-slide-item v-for="movie in searchResults.results" :key="movie.id">
+      <v-slide-item v-for="movie in viewableMovies" :key="movie.id">
 <v-img
   @click="selectMovie(movie)"
   contain
@@ -19,15 +19,16 @@
 </template>
 
 <script>
-import {mapState, mapActions} from'vuex'
+import {mapState, mapActions, mapGetters} from "vuex"
 export default {
 computed: {
-    ...mapState(["searchResults", "searchTerm"])
+    ...mapState(["searchResults", "searchTerm"]),
+    ...mapGetters(["viewableMovies"]),
 },
 methods: {
   ...mapActions(["selectMovie"])
 },
-}
+};
 </script>
 
 <style></style>

@@ -3,7 +3,7 @@
     <v-img
       :src="`https://image.tmdb.org/t/p/w500${movieDetails.backdrop_path}`"
     ></v-img>
-    <v-card-title color="red">{{ movieDetails.title }}</v-card-title>
+    <v-card-title color="pink">{{ movieDetails.title }}</v-card-title>
     <v-card-subtitle>
       <div>
         <v-icon>mdi-clock</v-icon>

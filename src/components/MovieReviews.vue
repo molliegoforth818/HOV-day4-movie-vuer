@@ -1,6 +1,6 @@
 <template>
   <div v-if="reviews && reviews.length > 0">
-    <h3 class="red--text">User Reviews</h3>
+    <h3 class="pink--text">User Reviews</h3>
     <v-list three-line>
       <v-list-item v-for="review in reviews" :key="review.id">
         <v-list-item-avatar>

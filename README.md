@@ -1,25 +1,13 @@
 # movie-vuer
 
-## Project setup
+## Project Learning Goals 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Describe at a high level the pros and cons of using Vuex
+Know what to look for when deciding whether or not to use Vuex
+Understand the parts of a Vuex store (state, mutations, actions, and getters)
+Access a Vuex store from a component
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Visit https://hov-movie-vuer.web.app to see the app
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 # HOV-day4-movie-vuer
